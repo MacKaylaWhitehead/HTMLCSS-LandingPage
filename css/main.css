@@ -251,11 +251,12 @@ section {
     z-index: 1;
 }
 footer {
+    display: flex;
     flex-wrap: wrap;
     position: relative;
     z-index: 0;
     min-height: 330px;
-    background-color: black;
+    background-color: #000000;
 }
 footer:after {
     content: "";
@@ -270,10 +271,7 @@ footer:after {
 }
 .lists {
     flex: 0 0 75%;
-    margin-left: 15px;
-    margin-right: 15px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px 15px;
 }
 .link-header {
     text-transform: uppercase;
@@ -281,11 +279,13 @@ footer:after {
     font-weight: 700;
     margin-bottom: 15px;
 }
-footer li {
-    color: white;
+footer a {
+    color: #ffffff;
     text-transform: uppercase;
     font-size: 12px;
     padding: 0 0 4px;
+}
+.footer a:hover {
     text-decoration: underline;
 }
 .social ul li {
@@ -338,7 +338,7 @@ footer li {
     color: #e5e5e5;
     font-size: 16px;
 }
-.ps image {
+.ps img {
     max-width: 230px;
 }
 .demo {
