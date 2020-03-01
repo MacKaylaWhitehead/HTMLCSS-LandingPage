@@ -95,9 +95,9 @@ section {
     padding: 0;
 }
 .nav-list {
-    padding: 0;
     width: 575px;
-    margin: 10px;
+    padding-left: 0;
+    margin-top: 10px;
 }
 .nav-list li a {
     font-size: 16px;
@@ -113,6 +113,9 @@ section {
     padding: 15px;
     font-size: 18px;
     color: #364147;
+}
+.account a {
+    font-size: 14px;
 }
 .profile-pic {
     height: 60px;
